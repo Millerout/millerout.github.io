@@ -353,8 +353,8 @@ Why Your Anonymous Survey Isn&#39;t Anonymous | Derek Miller Profile
           </div>
           
           <article class="page-content  p-2">
-          <h2 id="why-your-anonymous-survey-isnt-anonymous">Why Your “Anonymous” Survey Isn’t Anonymous</h2>
-<h3 id="a-data-ethics-analysis-of-anonymity-trust-and-student-survey-design">A data ethics analysis of anonymity, trust, and student survey design</h3>
+          <p>Why Your “Anonymous” Survey Isn’t Anonymous
+A data ethics analysis of anonymity, trust, and student survey design</p>
 <p>Ever had that weird feeling when a survey says &ldquo;anonymous&rdquo; but then asks you to log in?</p>
 <p>That happened to me this week while looking at a case study for our Ethics class at Trios College. Students get a link to rate their course. The page says, &ldquo;All answers will remain anonymous.&rdquo; But to open it, you must type your college username and password.</p>
 <p>Wait&hellip; if I log in, how is it anonymous? You know who I am.</p>
@@ -374,16 +374,16 @@ Then there is the question itself: &ldquo;This course met all of the course obje
 <p>What does &ldquo;all&rdquo; even mean? If 9 out of 10 objectives were great, what number do I click? Only 0 and 10 have labels. This is bad survey design. In data ethics we call this a Data Integrity and Validity problem. Bad questions create bad data, and bad data makes executives make bad decisions about which courses to update.</p>
 <h2 id="three-problems-you-dont-see-at-first">Three Problems You Don&rsquo;t See at First</h2>
 <p>If you look deeper, it gets worse.</p>
-<p>•	### You can still be identified.  Even without your name, they have your username + course name + time you submitted. In a small class of 8 students, it&rsquo;s easy to figure out who gave a low score. We learned this is called Re-identification risk. The fix is De-identification, but they didn&rsquo;t do it properly. The rule of Data Minimization says: don&rsquo;t collect a password if you don&rsquo;t need it for an anonymous survey.</p>
-<p>• ### Students feel pressured. There is a Power Asymmetry here. Students have less power than executive management. Students may believe management or other decision makers have influence over their academic future. If I think my boss can see my honest feedback, I will not be honest. I will give a 9/10 even if the course was a 4/10. That pressure is called Coercion. It doesn&rsquo;t have to be a threat, just the fear is enough. It ruins the data.</p>
-<p>•	### It can cause real harm. The ethics principle of non-maleficence means &ldquo;do no harm.&rdquo; If a student gives honest negative feedback and gets identified, they might feel anxious or fear retaliation. A good data professional following Virtue Ethics would ask, &ldquo;What would an honest, responsible person do here?&rdquo; An honest person would not trick students.</p>
+<p>• You can still be identified.  Even without your name, they have your username + course name + time you submitted. In a small class of 8 students, it&rsquo;s easy to figure out who gave a low score. We learned this is called Re-identification risk. The fix is De-identification, but they didn&rsquo;t do it properly. The rule of Data Minimization says: don&rsquo;t collect a password if you don&rsquo;t need it for an anonymous survey.</p>
+<p>• Students feel pressured. There is a Power Asymmetry here. Students have less power than executive management. Students may believe management or other decision makers have influence over their academic future. If I think my boss can see my honest feedback, I will not be honest. I will give a 9/10 even if the course was a 4/10. That pressure is called Coercion. It doesn&rsquo;t have to be a threat, just the fear is enough. It ruins the data.</p>
+<p>• It can cause real harm. The ethics principle of non-maleficence means &ldquo;do no harm.&rdquo; If a student gives honest negative feedback and gets identified, they might feel anxious or fear retaliation. A good data professional following Virtue Ethics would ask, &ldquo;What would an honest, responsible person do here?&rdquo; An honest person would not trick students.</p>
 <h2 id="so-how-do-we-fix-it">So, How Do We Fix It?</h2>
 <p>If I was the analyst talking to the executives, I wouldn&rsquo;t just give them charts. I would give them these 5 fixes:</p>
-<p>•	### Remove the login. Use a generic link for each course that doesn&rsquo;t track who you are. If you need to prevent duplicates, use two separate databases.  One that counts who finished, and one that holds answers with no names.
-•	### Tell the truth on the consent page.  Replace &ldquo;anonymous&rdquo; with the truth. Write: &ldquo;This survey is truly anonymous; we do not track your login. It is voluntary, you can skip any question, and only group averages will be shared with management.&rdquo;
-•	### Fix the questions. Stop using one confusing 0-10 question. Use clear 1-5 scales: 1=Strongly Disagree to 5=Strongly Agree. Ask one thing at a time, not &ldquo;all objectives.&rdquo;
-•	### Protect small classes. Don&rsquo;t show individual answers. Only show averages for courses with more than 5 responses. This is called k-anonymity.
-•	### Add a data policy. Say who sees the data, how long it is kept, and that passwords are never stored with answers.</p>
+<p>• Remove the login. Use a generic link for each course that doesn&rsquo;t track who you are. If you need to prevent duplicates, use two separate databases.  One that counts who finished, and one that holds answers with no names.
+• Tell the truth on the consent page.  Replace &ldquo;anonymous&rdquo; with the truth. Write: &ldquo;This survey is truly anonymous; we do not track your login. It is voluntary, you can skip any question, and only group averages will be shared with management.&rdquo;
+• Fix the questions. Stop using one confusing 0-10 question. Use clear 1-5 scales: 1=Strongly Disagree to 5=Strongly Agree. Ask one thing at a time, not &ldquo;all objectives.&rdquo;
+• Protect small classes. Don&rsquo;t show individual answers. Only show averages for courses with more than 5 responses. This is called k-anonymity.
+• Add a data policy. Say who sees the data, how long it is kept, and that passwords are never stored with answers.</p>
 <p>These changes are free, fast, and they give you better, more honest data.</p>
 <h2 id="what-if-the-boss-says-just-do-your-job">What If the Boss Says &ldquo;Just Do Your Job&rdquo;?</h2>
 <p>This is the question everyone in data science faces one day. What if management says, &ldquo;There are no ethical issues, just give us the insights&rdquo;?</p>
@@ -396,7 +396,7 @@ Then there is the question itself: &ldquo;This course met all of the course obje
 <p>This assignment taught me that ethics doesn&rsquo;t start in the code. It starts on the login page.</p>
 <p>The real insight for executives is not which course scored 4/10. The real insight is that you will never get the truth if you don&rsquo;t make people feel safe to tell it.</p>
 <p>Promising anonymity while collecting logins breaks trust. And without trust, your data is useless.</p>
-<p>As a future data analyst, I learned that my job is not just to produce charts. My job is to protect the people behind the data, even if that means telling management that their system needs to be redesigned before their courses are.</p>
+<p>As a future data analyst, I learned that my job is not just to produce charts. My job is to protect the people behind the data, even if that means telling management that their system needs to be redesigned before their courses are.  Ethical data practices build trust, and trust is what makes feedback valuable in the first place.</p>
 
           </article>
         </div>
@@ -411,11 +411,6 @@ Then there is the question itself: &ldquo;This course met all of the course obje
               <div class="toc-content">
                 <nav id="TableOfContents">
   <ul>
-    <li><a href="#why-your-anonymous-survey-isnt-anonymous">Why Your “Anonymous” Survey Isn’t Anonymous</a>
-      <ul>
-        <li><a href="#a-data-ethics-analysis-of-anonymity-trust-and-student-survey-design">A data ethics analysis of anonymity, trust, and student survey design</a></li>
-      </ul>
-    </li>
     <li><a href="#the-promise-vs-the-reality">The Promise vs. The Reality</a></li>
     <li><a href="#why-good-intentions-are-not-enough">Why Good Intentions Are Not Enough</a></li>
     <li><a href="#three-problems-you-dont-see-at-first">Three Problems You Don&rsquo;t See at First</a></li>
@@ -582,8 +577,8 @@ Then there is the question itself: &ldquo;This course met all of the course obje
                         <h5 class="card-title bg-transparent" title="Why Your Anonymous Survey Isn&#39;t Anonymous">Why Your Anonymous Survey …</h5>
                     </a>
                     <div class="card-text secondary-font">
-                        <p><h2 id="why-your-anonymous-survey-isnt-anonymous">Why Your “Anonymous” Survey Isn’t Anonymous</h2>
-<h3 id="a-data-ethics-analysis-of-anonymity-trust-and-student-survey-design">A data ethics analysis of anonymity, trust, and student survey design</h3>
+                        <p><p>Why Your “Anonymous” Survey Isn’t Anonymous
+A data ethics analysis of anonymity, trust, and student survey design</p>
 <p>Ever had that weird feeling when a survey says &ldquo;anonymous&rdquo; but then asks you to log in?</p>
 <p>That happened to me this week while looking at a case study for our Ethics class at …</p></p>
                     </div>
